@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+*.env
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Data
+*.csv
+data/
