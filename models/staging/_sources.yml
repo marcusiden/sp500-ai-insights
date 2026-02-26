@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SP500_FINANCIALS
+    schema: RAW
+    tables:
+      - name: RAW_SP500_FINANCIALS
+        description: "Raw S&P 500 financial data loaded from Kaggle CSV"
